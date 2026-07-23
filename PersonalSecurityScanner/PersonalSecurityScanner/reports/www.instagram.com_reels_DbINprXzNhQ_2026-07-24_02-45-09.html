@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Security Scan Report — https://www.instagram.com/reels/DbINprXzNhQ/</title>
+<style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background:#0f1115; color:#eef1f6; margin:0; padding:40px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .top-card { background: linear-gradient(135deg,#2F6BFF,#7B5CFF); border-radius:16px; padding:28px; margin-bottom:24px; }
+    .top-card h1 { margin:0 0 8px 0; font-size:24px; }
+    .score { font-size:42px; font-weight:bold; }
+    table { width:100%; border-collapse: collapse; margin-bottom: 24px; }
+    td, th { padding: 8px 12px; border-bottom: 1px solid #2a2e38; text-align:left; }
+    h2 { border-bottom: 2px solid #2F6BFF; padding-bottom:6px; }
+    .finding { background:#1b1e25; border-left:4px solid #888; border-radius:8px; padding:14px 18px; margin-bottom:12px; }
+    .finding.critical, .finding.high { border-left-color:#E5484D; }
+    .finding.medium { border-left-color:#E8A400; }
+    .finding.low { border-left-color:#8FB3D9; }
+    .finding.good { border-left-color:#1FAA59; }
+    footer { color:#7c7c86; font-size:12px; margin-top:30px; text-align:center; }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="top-card">
+        <h1>https://www.instagram.com/reels/DbINprXzNhQ/</h1>
+        <div>Scanned on 2026-07-24 at 02:45:09 (10.63s)</div>
+        <div class="score">12/100 — Critical</div>
+    </div>
+
+    <h2>Findings & Recommendations</h2>
+    
+        <div class="finding high">
+            <h3>❌ SSL/TLS certificate could not be verified</h3>
+            <p><strong>Why it matters:</strong> Detail: Unexpected SSL check error: time data &#x27;Jul 31 23:59:59 2026 GMT&#x27; does not match format &#x27;%b %d %H:%M:%S %Y %GMT&#x27;</p>
+            <p><strong>Recommendation:</strong> Install a valid, trusted TLS certificate covering this hostname.</p>
+        </div>
+        <div class="finding medium">
+            <h3>❌ Missing Referrer-Policy</h3>
+            <p><strong>Why it matters:</strong> Full URLs (possibly with sensitive data) may leak to third parties.</p>
+            <p><strong>Recommendation:</strong> Set a strict Referrer-Policy such as strict-origin-when-cross-origin.</p>
+        </div>
+        <div class="finding medium">
+            <h3>❌ Missing Cross-Origin-Embedder-Policy</h3>
+            <p><strong>Why it matters:</strong> Cross-origin isolation is not enforced.</p>
+            <p><strong>Recommendation:</strong> Set Cross-Origin-Embedder-Policy: require-corp if isolation is needed.</p>
+        </div>
+        <div class="finding critical">
+            <h3>❌ Publicly accessible: /.git/</h3>
+            <p><strong>Why it matters:</strong> Sensitive configuration, credentials, or source history could be exposed.</p>
+            <p><strong>Recommendation:</strong> Restrict or remove public access to /.git/ immediately.</p>
+        </div>
+        <div class="finding critical">
+            <h3>❌ Publicly accessible: /.env</h3>
+            <p><strong>Why it matters:</strong> Sensitive configuration, credentials, or source history could be exposed.</p>
+            <p><strong>Recommendation:</strong> Restrict or remove public access to /.env immediately.</p>
+        </div>
+        <div class="finding critical">
+            <h3>❌ Publicly accessible: /phpinfo.php</h3>
+            <p><strong>Why it matters:</strong> Sensitive configuration, credentials, or source history could be exposed.</p>
+            <p><strong>Recommendation:</strong> Restrict or remove public access to /phpinfo.php immediately.</p>
+        </div>
+        <div class="finding critical">
+            <h3>❌ Publicly accessible: /backup.zip</h3>
+            <p><strong>Why it matters:</strong> Sensitive configuration, credentials, or source history could be exposed.</p>
+            <p><strong>Recommendation:</strong> Restrict or remove public access to /backup.zip immediately.</p>
+        </div>
+        <div class="finding critical">
+            <h3>❌ Publicly accessible: /config.php</h3>
+            <p><strong>Why it matters:</strong> Sensitive configuration, credentials, or source history could be exposed.</p>
+            <p><strong>Recommendation:</strong> Restrict or remove public access to /config.php immediately.</p>
+        </div>
+        <div class="finding critical">
+            <h3>❌ Publicly accessible: /.htaccess</h3>
+            <p><strong>Why it matters:</strong> Sensitive configuration, credentials, or source history could be exposed.</p>
+            <p><strong>Recommendation:</strong> Restrict or remove public access to /.htaccess immediately.</p>
+        </div>
+        <div class="finding medium">
+            <h3>⚠️ Cookie &#x27;csrftoken&#x27; missing security flags</h3>
+            <p><strong>Why it matters:</strong> Cookies without Secure/HttpOnly can be stolen via network sniffing or XSS.</p>
+            <p><strong>Recommendation:</strong> Set the Secure and HttpOnly flags (and SameSite) on this cookie.</p>
+        </div>
+
+    <h2>SSL / TLS</h2>
+    <table>
+        <tr><td>HTTPS Enabled</td><td>True</td></tr>
+        <tr><td>Issuer</td><td>countryName=US, organizationName=DigiCert Inc, commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1</td></tr>
+        <tr><td>Expires On</td><td>None</td></tr>
+        <tr><td>Valid</td><td>False</td></tr>
+        <tr><td>TLS Version</td><td>TLSv1.3</td></tr>
+    </table>
+
+    <h2>Security Headers</h2>
+    <table><tr><td>Content-Security-Policy</td><td>✅ Present</td></tr><tr><td>Strict-Transport-Security</td><td>✅ Present</td></tr><tr><td>X-Frame-Options</td><td>✅ Present</td></tr><tr><td>X-Content-Type-Options</td><td>✅ Present</td></tr><tr><td>Referrer-Policy</td><td>❌ Missing</td></tr><tr><td>Permissions-Policy</td><td>✅ Present</td></tr><tr><td>Cross-Origin-Opener-Policy</td><td>✅ Present</td></tr><tr><td>Cross-Origin-Resource-Policy</td><td>✅ Present</td></tr><tr><td>Cross-Origin-Embedder-Policy</td><td>❌ Missing</td></tr></table>
+
+    <h2>Server Information</h2>
+    <table><tr><td>Server</td><td>Not disclosed</td></tr><tr><td>X-Powered-By</td><td>Not disclosed</td></tr><tr><td>Via</td><td>Not disclosed</td></tr><tr><td>ETag</td><td>Not disclosed</td></tr></table>
+
+    <h2>Exposed File Paths</h2>
+    <table><tr><td>/.git/</td><td>🛑 Accessible</td></tr><tr><td>/.env</td><td>🛑 Accessible</td></tr><tr><td>/phpinfo.php</td><td>🛑 Accessible</td></tr><tr><td>/backup.zip</td><td>🛑 Accessible</td></tr><tr><td>/config.php</td><td>🛑 Accessible</td></tr><tr><td>/.htaccess</td><td>🛑 Accessible</td></tr></table>
+
+    <h2>HTTP Methods</h2>
+    <table><tr><td>OPTIONS</td><td>Allowed</td></tr><tr><td>HEAD</td><td>Allowed</td></tr><tr><td>GET</td><td>Allowed</td></tr><tr><td>POST</td><td>Allowed</td></tr></table>
+
+    <footer>Generated by Personal Security Scanner — a passive, educational scan of the site you provided. No exploitation performed.</footer>
+</div>
+</body>
+</html>

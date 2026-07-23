@@ -1,0 +1,168 @@
+{
+  "url": "https://www.instagram.com/reels/DbINprXzNhQ/",
+  "hostname": "www.instagram.com",
+  "date": "2026-07-24",
+  "time": "02:45:09",
+  "duration_seconds": 10.63,
+  "error": null,
+  "https_enabled": true,
+  "ssl": {
+    "https_enabled": true,
+    "valid": false,
+    "expired": null,
+    "issuer": "countryName=US, organizationName=DigiCert Inc, commonName=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+    "subject": "countryName=US, stateOrProvinceName=California, localityName=Menlo Park, organizationName=Meta Platforms, Inc., commonName=*.www.instagram.com",
+    "expires_on": null,
+    "days_remaining": null,
+    "hostname_match": null,
+    "tls_version": "TLSv1.3",
+    "error": "Unexpected SSL check error: time data 'Jul 31 23:59:59 2026 GMT' does not match format '%b %d %H:%M:%S %Y %GMT'"
+  },
+  "security_headers": {
+    "Content-Security-Policy": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com z-p42-static.cdninstagram.com https://instagram.com https://*.www.instagram.com https://*.cdninstagram.com wss://www.instagram.com blob: *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-Sc0WoTdZ' 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com z-p42-static.cdninstagram.com https://*.www.instagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com https://accounts.google.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net https://instagram.com https://*.www.instagram.com https://*.graph.instagram.com https://*.i.instagram.com https://*.od.instagram.com https://i.threads.net https://i.threads.com https://*.od.threads.net https://*.od.threads.com wss://www.instagram.com blob: *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* *.cdninstagram.com wss://*.instagram.com:* 'self' *.ipification.com https://accounts.google.com https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com z-p42-static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://*.cdninstagram.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: https://*.threads.net https://*.threads.com *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src https://instagram.com https://connect.facebook.net *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: *.ipification.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+    "Strict-Transport-Security": "max-age=31536000; preload; includeSubDomains",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": null,
+    "Permissions-Policy": "accelerometer=(self), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(self), gyroscope=(self), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(self), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self \"https://*.facebook.com\" \"https://facebook.com\"), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\"",
+    "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+    "Cross-Origin-Resource-Policy": "same-origin",
+    "Cross-Origin-Embedder-Policy": null
+  },
+  "server_info": {
+    "Server": null,
+    "X-Powered-By": null,
+    "Via": null,
+    "ETag": null
+  },
+  "robots": {
+    "exists": true,
+    "url": "https://www.instagram.com/robots.txt",
+    "status_code": 200
+  },
+  "sitemap": {
+    "exists": true,
+    "url": "https://www.instagram.com/sitemap.xml",
+    "status_code": 200
+  },
+  "exposed_files": [
+    {
+      "path": "/.git/",
+      "url": "https://www.instagram.com/.git/",
+      "accessible": true,
+      "status_code": 200
+    },
+    {
+      "path": "/.env",
+      "url": "https://www.instagram.com/.env",
+      "accessible": true,
+      "status_code": 200
+    },
+    {
+      "path": "/phpinfo.php",
+      "url": "https://www.instagram.com/phpinfo.php",
+      "accessible": true,
+      "status_code": 200
+    },
+    {
+      "path": "/backup.zip",
+      "url": "https://www.instagram.com/backup.zip",
+      "accessible": true,
+      "status_code": 200
+    },
+    {
+      "path": "/config.php",
+      "url": "https://www.instagram.com/config.php",
+      "accessible": true,
+      "status_code": 200
+    },
+    {
+      "path": "/.htaccess",
+      "url": "https://www.instagram.com/.htaccess",
+      "accessible": true,
+      "status_code": 200
+    }
+  ],
+  "http_methods": {
+    "OPTIONS": true,
+    "HEAD": true,
+    "GET": true,
+    "POST": true
+  },
+  "redirect": {
+    "checked": true,
+    "redirects_to_https": true,
+    "final_url": "https://www.instagram.com/"
+  },
+  "cookies": [
+    {
+      "name": "csrftoken",
+      "secure": true,
+      "httponly": false,
+      "samesite": null
+    }
+  ],
+  "risk_score": 12,
+  "findings": [
+    {
+      "severity": "high",
+      "title": "\u274c SSL/TLS certificate could not be verified",
+      "why": "Detail: Unexpected SSL check error: time data 'Jul 31 23:59:59 2026 GMT' does not match format '%b %d %H:%M:%S %Y %GMT'",
+      "fix": "Install a valid, trusted TLS certificate covering this hostname."
+    },
+    {
+      "severity": "medium",
+      "title": "\u274c Missing Referrer-Policy",
+      "why": "Full URLs (possibly with sensitive data) may leak to third parties.",
+      "fix": "Set a strict Referrer-Policy such as strict-origin-when-cross-origin."
+    },
+    {
+      "severity": "medium",
+      "title": "\u274c Missing Cross-Origin-Embedder-Policy",
+      "why": "Cross-origin isolation is not enforced.",
+      "fix": "Set Cross-Origin-Embedder-Policy: require-corp if isolation is needed."
+    },
+    {
+      "severity": "critical",
+      "title": "\u274c Publicly accessible: /.git/",
+      "why": "Sensitive configuration, credentials, or source history could be exposed.",
+      "fix": "Restrict or remove public access to /.git/ immediately."
+    },
+    {
+      "severity": "critical",
+      "title": "\u274c Publicly accessible: /.env",
+      "why": "Sensitive configuration, credentials, or source history could be exposed.",
+      "fix": "Restrict or remove public access to /.env immediately."
+    },
+    {
+      "severity": "critical",
+      "title": "\u274c Publicly accessible: /phpinfo.php",
+      "why": "Sensitive configuration, credentials, or source history could be exposed.",
+      "fix": "Restrict or remove public access to /phpinfo.php immediately."
+    },
+    {
+      "severity": "critical",
+      "title": "\u274c Publicly accessible: /backup.zip",
+      "why": "Sensitive configuration, credentials, or source history could be exposed.",
+      "fix": "Restrict or remove public access to /backup.zip immediately."
+    },
+    {
+      "severity": "critical",
+      "title": "\u274c Publicly accessible: /config.php",
+      "why": "Sensitive configuration, credentials, or source history could be exposed.",
+      "fix": "Restrict or remove public access to /config.php immediately."
+    },
+    {
+      "severity": "critical",
+      "title": "\u274c Publicly accessible: /.htaccess",
+      "why": "Sensitive configuration, credentials, or source history could be exposed.",
+      "fix": "Restrict or remove public access to /.htaccess immediately."
+    },
+    {
+      "severity": "medium",
+      "title": "\u26a0\ufe0f Cookie 'csrftoken' missing security flags",
+      "why": "Cookies without Secure/HttpOnly can be stolen via network sniffing or XSS.",
+      "fix": "Set the Secure and HttpOnly flags (and SameSite) on this cookie."
+    }
+  ]
+}
